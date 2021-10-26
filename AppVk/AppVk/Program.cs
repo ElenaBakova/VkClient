@@ -29,10 +29,10 @@ namespace AppVk
 
         private static async Task Main(string[] args)
         {
-            var token = "44fcc8d244fcc8d244fcc8d2e944851f70444fc44fcc8d2258b3199825618b6202a56f8";
+            var token = "enter here your token";
             Console.WriteLine("Please enter userId");
             var userId = Console.ReadLine();
-            //string userId = "560243831";
+            //string userId = "id";
             var json = await UserInfo(token, userId);            
             Console.WriteLine(json);
             await Authorize(userId);

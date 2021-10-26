@@ -53,13 +53,11 @@ namespace AppVk
 
         private static async Task Main(string[] args)
         {
-            var token = "44fcc8d244fcc8d244fcc8d2e944851f70444fc44fcc8d2258b3199825618b6202a56f8";
-            /*Console.WriteLine("Please enter userId");
-            var userId = Console.ReadLine();*/
-            var userId = "ilovetacoss";
-            /*Console.WriteLine("Please enter your app id");
-            var clientId = Console.ReadLine();*/
-            var clientId = "7985058";
+            var token = "token";
+            Console.WriteLine("Please enter userId");
+            var userId = Console.ReadLine();
+            Console.WriteLine("Please enter your app id");
+            var clientId = Console.ReadLine();
             await GetUserInfo(token, userId);
             //GetAccessToken(clientId);
         }
